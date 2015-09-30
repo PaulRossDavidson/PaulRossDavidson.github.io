@@ -20,4 +20,9 @@ $("#contact").click(function() {
 $("#skills").click(function() {
    scrollToAnchor('skills');
 });
+
+$("#showEmail").click(function(){
+    $("#email").toggle('slow');
+});
+
 });
