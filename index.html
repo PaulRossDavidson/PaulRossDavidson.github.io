@@ -2,6 +2,8 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js">
+    	</script>
 	<script src="js/script.js" type="text/javascript">
 	</script>
   <title>Paul Davidson</title>
@@ -9,21 +11,23 @@
 <body>
  <header>
  	<ul>
- 		<li>About |</li>
- 		<li>Experience |</li>
- 		<li>Projects |</li>
- 		<li>Contact</li>
+ 		<li><a id="about" href="#" >About |</a></li>
+ 		<li><a id="experience" href="#" >Experience |</a></li>
+ 		<li><a id="projects" href="#" >Projects |</a></li>
+ 		<li><a id="contact" href="#" >Contact</a></li>
  	</ul>
  </header>
-	<div>
+	<div class="content">
 		<h1>Paul Davidson </h1>
 		<img id="profile" src="images/profileSmall.jpg" />	
 		<h1>Web Developer</h1>
 	</div>
   <div>
+  	<a name="about" />
 	<h1>About</h1>
 
 		<p>With a passion for building web apps using the most simple, short and clear code solutions, Paul intends to gain experience with Angular.js and other technologies to become a top teir developer. Paul looks forward to merging hist interests in travel, outdoor recreation and new technologies with web based solutions at every chance he can.</p>
+   <a name="experience"/>
    <h1>Experience</h1>
 		<p>Paul started working in IT during college at a call center and computer technician/consultant. He worked with data during grad school as an economic trends researcher / writer while co-founding and growing his first startup. With experience building small, solo web development projects as well as large, team projects in technical and management roles, Paul looks forward to growign his professional accomplishments.</p>
 
@@ -36,7 +40,7 @@
 		<p>GearSpoke is a site where users can rent their outdoor gear to fellow users. There's no fee to sign up, you can pay the rental fee securly through the site and it only costs 10% of the rental to rent your equipment over the site. 
 		<br/> 
 		As co-founder | CEO of GearSpoke, Paul learned while doing and was a major part in the development the site and it's community. With three technical developers and one designer, Paul created an easy to use, beautiful site while gaining the respect of his co-founders an mentors. After selling in 2014, Paul was determined to become an expert developer.</p>
-
+   <a name="projects" />
    <h1>Projects</h1>
 	<h2>Asteroids!</h2>
 		<p>Inspired by childhood memories of the origional arcade asteroids game. This front end only site features very simple and clean code to make a little, two player game. Click the asteroid and keep it from destroying the planet!</p>
@@ -56,6 +60,7 @@
 		<img id="deciderImg" src="images/robot.jpg"/>
   </div>
 	<h1>Contact</h1>
+    <a name="contact" />
 		<p>paulrossdavidson@gmail.com</p>
 		<p>https://www.linkedin.com/pub/paul-davidson/20/9b1/666</p>
 </body>
