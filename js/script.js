@@ -1,4 +1,3 @@
-console.log("script.js is linked")
 $(document).ready(function() { 
 
 function scrollToAnchor(aid){
@@ -17,5 +16,8 @@ $("#projects").click(function() {
 });
 $("#contact").click(function() {
    scrollToAnchor('contact');
+});
+$("#skills").click(function() {
+   scrollToAnchor('skills');
 });
 });

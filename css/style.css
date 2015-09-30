@@ -54,10 +54,22 @@ img {
 	float: right;
 	margin-right: 5%;
 }
+.icon {
+	width: 15%;
+	float: left;
+}
 #deciderText {
 	width: 50%;
 	float: left;
 	margin: 5%;
+}
+#front {
+	float: right;
+	margin-bottom: 30%;
+}
+#back {
+	float: left;
+	margin-bottom: 30%;
 }
 p {
 	text-align: left;
@@ -74,4 +86,17 @@ h1 {
 }
 h2 {
 	font-size: 3em;
+}
+table, tr, td {
+	font-size: 1.25em;
+}
+table {
+	width: 90%;
+}
+th {
+	font-size: 1.3em;
+	text-decoration: underline;
+}
+td {
+	text-align: center;
 }
