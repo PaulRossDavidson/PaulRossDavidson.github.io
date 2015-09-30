@@ -50,18 +50,18 @@ img {
 
 }
 #deciderImg {
-	width: 35%;
-	float: right;
+	width: 30%;
+	position: right;
 	margin-right: 5%;
+}
+#deciderText {
+	width: 45%;
+	position: left;
+	margin: 5%;
 }
 .icon {
 	width: 15%;
 	float: left;
-}
-#deciderText {
-	width: 50%;
-	float: left;
-	margin: 5%;
 }
 #front {
 	float: right;
