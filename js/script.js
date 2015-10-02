@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 function scrollToAnchor(aid){
     var aTag = $("a[name='"+ aid +"']");
-    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+    $('html,body').animate({scrollTop: aTag.offset().top},speed=1000);
 }
 
 $("#about").click(function() {

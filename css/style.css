@@ -1,5 +1,4 @@
 body{
-	/*background-image: url("../images/Plaid.png");*/
 	background: linear-gradient(to right, white, grey);
 	background-size: cover;
 	background-position: fixed;
@@ -13,7 +12,6 @@ header {
 	width: 100%;
 	top: 0px;
 	background: linear-gradient(grey, white, grey);
-	margin-bottom: 10%;
 }
 li {
 	display: inline;
@@ -22,9 +20,6 @@ li {
 a {
 	margin-bottom: 100px;
 	margin-top: 100px;
-}
-.content {
-	margin-top: 7%;
 }
 #profile {
 	border-radius: 50%;
@@ -37,17 +32,11 @@ img {
 	margin-right: auto;
 	margin-left: auto;
 }
-#generalassembly {
-	width: 30%;
-}
 #asteroidsSS {
  	width: 75%;
 }
-#overlanditSS {
-
-}
-#prepperSS {
-
+#paulInShop {
+	width: 75%;
 }
 #deciderImg {
 	width: 30%;
@@ -88,13 +77,13 @@ h2 {
 	font-size: 3em;
 }
 table, tr, td {
-	font-size: 1.25em;
+	font-size: 1.1em;
 }
 table {
 	width: 90%;
 }
 th {
-	font-size: 1.3em;
+	font-size: 1.15em;
 	text-decoration: underline;
 }
 td {
@@ -103,6 +92,3 @@ td {
 #email {
 	display: none;
 }
-/*#contact {
-	position: right;
-}*/
