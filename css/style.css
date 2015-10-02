@@ -60,8 +60,8 @@ img {
 	margin: 5%;
 }
 .icon {
-	width: 15%;
-	float: left;
+	width: 15%; 
+	position: left;
 }
 #front {
 	float: right;
@@ -101,4 +101,8 @@ td {
 	text-align: center;
 }
 #email {
+	display: none;
 }
+/*#contact {
+	position: right;
+}*/
