@@ -4,7 +4,7 @@ body{
 	background-position: fixed;
 	text-align: center;
 	padding: 0px;
-	margin: 0px;
+	margin: 2%;
 	font-family: sans-serif;
 	}
 header {
@@ -12,6 +12,7 @@ header {
 	width: 100%;
 	top: 0px;
 	background: linear-gradient(grey, white, grey);
+	z-index: 1;
 }
 li {
 	display: inline;
@@ -20,45 +21,14 @@ li {
 a {
 	margin-bottom: 100px;
 	margin-top: 100px;
+	color: black;
 }
-#profile {
-	border-radius: 50%;
-	width: 40%;
-	}
 img {
-	width: 60%;
 	border-radius: 2%;
-	margin: 5%;
+	margin: 2%;
 	margin-right: auto;
 	margin-left: auto;
-}
-#asteroidsSS {
- 	width: 75%;
-}
-#paulInShop {
-	width: 75%;
-}
-#deciderImg {
-	width: 30%;
-	position: right;
-	margin-right: 5%;
-}
-#deciderText {
-	width: 45%;
-	position: left;
-	margin: 5%;
-}
-.icon {
-	width: 15%; 
-	position: left;
-}
-#front {
-	float: right;
-	margin-bottom: 30%;
-}
-#back {
-	float: left;
-	margin-bottom: 30%;
+	width: 80%;
 }
 p {
 	text-align: left;
@@ -72,23 +42,65 @@ h1 {
 	font-family: serif;
 	margin-top: 5%;
 	margin-bottom: 5%;
+	margin-top: 15%;
 }
 h2 {
 	font-size: 3em;
+	margin-top: 15%;
 }
 table, tr, td {
 	font-size: 1.1em;
 }
 table {
-	width: 90%;
+	width: 100%;
 }
 th {
 	font-size: 1.15em;
 	text-decoration: underline;
 }
 td {
-	text-align: center;
+	text-align: left;
+	padding-left: 5%;
+}
+.viewport {
+
+}
+#profile {
+	border-radius: 50%;
+	width: 40%;
+}
+#asteroidsSS {
+ 	width: 80%;
+}
+#paulInShop {
+	width: 100%;
+}
+#deciderImg {
+	width: 30%;
+	position: right;
+	margin-right: 5%;
+}
+#deciderText {
+	width: 45%;
+	position: left;
+	margin: 5%;
+}
+#front {
+	float: right;
+	margin-bottom: 30%;
+}
+#back {
+	float: left;
+	margin-bottom: 30%;
 }
 #email {
 	display: none;
+	text-align: center;
+}
+#showEmail {
+	font-size: 1.25em;
+}
+.icon {
+	width: 15%; 
+	position: left;
 }

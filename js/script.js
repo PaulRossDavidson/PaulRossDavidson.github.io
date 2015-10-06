@@ -2,8 +2,8 @@ $(document).ready(function() {
 
 function scrollToAnchor(aid){
     var aTag = $("a[name='"+ aid +"']");
-    $('html,body').animate({scrollTop: aTag.offset().top},speed=1000);
-}
+    $('html,body').animate({scrollTop: aTag.offset().top},speed=2000);
+} // add delay before scroll
 
 $("#about").click(function() {
    scrollToAnchor('about');
