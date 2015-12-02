@@ -4,7 +4,6 @@ body{
 	background-position: fixed;
 	text-align: center;
 	padding: 0px;
-	margin: 2%;
 	font-family: sans-serif;
 	}
 header {
@@ -13,6 +12,7 @@ header {
 	top: 0px;
 	background: linear-gradient(grey, white, grey);
 	z-index: 1;
+	min-height: 7%;
 }
 li {
 	display: inline;
