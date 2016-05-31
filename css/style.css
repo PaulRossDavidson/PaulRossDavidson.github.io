@@ -82,6 +82,9 @@ td {
 #paulInShop {
 	width: 100%;
 }
+#bannerTall {
+	width: 20px;
+}
 #email {
 	display: none;
 	text-align: center;
@@ -89,11 +92,14 @@ td {
 #showEmail {
 	font-size: 1.25em;
 }
+#prepperSS {
+	max-width: 50%;
+}
 .icon {
 	width: 15%; 
 	position: left;
 }
-/*@media only screen and (max-width: 500px){
+@media only screen and (max-width: 500px){
 
 	li {
 		display: inline;
@@ -116,4 +122,4 @@ td {
 		font-size: 5.5vmin;
 		padding-bottom: 10px;
 	}
-}*/
+}
