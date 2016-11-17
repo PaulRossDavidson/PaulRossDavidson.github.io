@@ -1,0 +1,25 @@
+body {
+  font-family: "helvetica", sans-serif;
+}
+
+.heading {
+  margin: 2% 15% 2% 15%;
+  padding-top: 3px;
+  font-size: 3em;
+  text-align: center;
+}
+
+img {
+  width: 60%;
+  margin: 5% 20% 5% 20%;
+  border-radius: 120px;
+  border: solid black 5px;
+}
+
+.container {
+  background-color: #B7410E;
+  position: relative;
+  margin: 5% 10% 5% 10%;
+  width: 80%;
+  border-radius: 50px;
+}
